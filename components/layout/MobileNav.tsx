@@ -1,8 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useLanguage } from "@/components/shared/LanguageProvider";
+import { getBrand } from "@/lib/data/loaders";
+import WhatsAppLink from "@/components/shared/WhatsAppLink";
+import { Button } from "@/components/ui/Button";
 
 function cx(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ");
@@ -15,6 +18,8 @@ export type NavItem = {
 
 export default function MobileNav({ items }: { items: NavItem[] }) {
   const [open, setOpen] = useState(false);
+  const panelRef = useRef<HTMLDivElement | null>(null);
+  const brand = getBrand();
   const { lang, setLang } = useLanguage();
   const isEn = lang === "en";
 
@@ -25,6 +30,18 @@ export default function MobileNav({ items }: { items: NavItem[] }) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) return;
+    const onClickOutside = (event: MouseEvent) => {
+      if (!panelRef.current) return;
+      if (!panelRef.current.contains(event.target as Node)) {
+        setOpen(false);
+      }
+    };
+    window.addEventListener("mousedown", onClickOutside);
+    return () => window.removeEventListener("mousedown", onClickOutside);
   }, [open]);
 
   const linkGrid = useMemo(
@@ -46,7 +63,7 @@ export default function MobileNav({ items }: { items: NavItem[] }) {
   );
 
   return (
-    <div className="lg:hidden">
+    <div ref={panelRef} className="relative lg:hidden">
       <button
         type="button"
         onClick={() => setOpen((value) => !value)}
@@ -64,7 +81,7 @@ export default function MobileNav({ items }: { items: NavItem[] }) {
       {open ? (
         <div
           id="sb-mobile-nav"
-          className="mt-3 space-y-4 rounded-[var(--radius-xl)] border border-[var(--border-subtle)] bg-[var(--surface-soft)] p-4 shadow-[var(--shadow-soft)]"
+          className="absolute right-0 top-[calc(100%+0.75rem)] z-[70] w-[min(92vw,22rem)] max-h-[70dvh] space-y-4 overflow-y-auto rounded-[var(--radius-xl)] border border-[var(--border-subtle)] bg-[var(--surface-soft)] p-4 shadow-[var(--shadow-lift)]"
         >
           <div className="inline-flex rounded-full border border-[var(--border-subtle)] bg-[var(--surface-muted)] p-1">
             <button
@@ -90,6 +107,17 @@ export default function MobileNav({ items }: { items: NavItem[] }) {
           </div>
 
           <div className="grid gap-3">{linkGrid}</div>
+
+          <WhatsAppLink
+            message={
+              isEn ? brand.whatsapp.defaultMessage.en : brand.whatsapp.defaultMessage.ta
+            }
+            className="block"
+          >
+            <Button size="sm" className="w-full">
+              {isEn ? "WhatsApp Enquiry" : "WhatsApp விசாரணை"}
+            </Button>
+          </WhatsAppLink>
         </div>
       ) : null}
     </div>

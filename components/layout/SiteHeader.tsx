@@ -45,7 +45,7 @@ export default function SiteHeader({ brandName }: { brandName: string }) {
                 width={164}
                 height={36}
                 priority
-                className="h-8 w-auto"
+                className="h-7 w-auto sm:h-8"
               />
               <span className="sr-only">{brandName}</span>
             </Link>
@@ -107,6 +107,44 @@ export default function SiteHeader({ brandName }: { brandName: string }) {
 
               <MobileNav items={nav} />
             </div>
+          </div>
+
+          <div className="flex items-center gap-2 pb-3 sm:hidden">
+            <div className="inline-flex rounded-full border border-[var(--border-subtle)] bg-[var(--surface-muted)] p-1">
+              <button
+                type="button"
+                onClick={() => setLang("en")}
+                className={cx(
+                  "rounded-full px-3 py-1 text-xs font-semibold transition",
+                  isEn && "bg-[var(--brand)] text-white"
+                )}
+                aria-pressed={isEn}
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                onClick={() => setLang("ta")}
+                className={cx(
+                  "rounded-full px-3 py-1 text-xs font-semibold transition",
+                  !isEn && "bg-[var(--brand)] text-white"
+                )}
+                aria-pressed={!isEn}
+              >
+                TA
+              </button>
+            </div>
+
+            <WhatsAppLink
+              message={
+                isEn ? brand.whatsapp.defaultMessage.en : brand.whatsapp.defaultMessage.ta
+              }
+              className="flex-1"
+            >
+              <Button variant="secondary" size="sm" className="h-9 w-full">
+                {isEn ? "WhatsApp Enquiry" : "WhatsApp விசாரணை"}
+              </Button>
+            </WhatsAppLink>
           </div>
         </Container>
       </div>
