@@ -17,6 +17,8 @@ export default function SiteHeader({ brandName }: { brandName: string }) {
   const brand = getBrand();
   const { lang, setLang } = useLanguage();
   const isEn = lang === "en";
+  const [brandPrimary, ...brandSuffixParts] = brandName.split(" ");
+  const brandSecondary = brandSuffixParts.join(" ");
 
   const nav: NavItem[] = [
     { href: "/", label: { en: "Home", ta: "முகப்பு" } },
@@ -38,16 +40,25 @@ export default function SiteHeader({ brandName }: { brandName: string }) {
       <div className="border-b border-[var(--border-subtle)] bg-[color:var(--surface-soft)]/95 backdrop-blur-md">
         <Container>
           <div className="flex h-16 items-center justify-between gap-3">
-            <Link href="/" className="flex items-center gap-3">
+            <Link href="/" className="group flex items-center gap-2.5 sm:gap-3">
               <Image
-                src="/brand/logo.svg"
+                src="/brand/logo-mark.svg"
                 alt={brandName}
-                width={236}
-                height={72}
+                width={52}
+                height={52}
                 priority
-                className="h-10 w-auto sm:h-11"
+                className="h-10 w-10 rounded-full object-cover ring-1 ring-[var(--border-subtle)] transition-transform duration-300 group-hover:scale-[1.03] sm:h-11 sm:w-11"
               />
-              <span className="sr-only">{brandName}</span>
+              <span className="inline-flex items-center gap-1 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-muted)]/80 px-2.5 py-1">
+                <span className="font-display text-xs uppercase tracking-[0.22em] text-[var(--brand-strong)] sm:text-sm">
+                  {brandPrimary}
+                </span>
+                {brandSecondary ? (
+                  <span className="font-display text-xs uppercase tracking-[0.22em] text-[var(--accent-strong)] sm:text-sm">
+                    {brandSecondary}
+                  </span>
+                ) : null}
+              </span>
             </Link>
 
             <nav className="hidden items-center gap-1 lg:flex">

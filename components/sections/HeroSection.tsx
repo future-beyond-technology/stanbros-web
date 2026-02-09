@@ -77,15 +77,14 @@ export default function HeroSection() {
           variants={fadeUp}
           transition={{ duration: 0.35, ease: [0.22, 0.61, 0.36, 1] }}
         >
-          <div className="inline-flex items-center gap-3 rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-soft)]/70 px-3 py-2">
+          <div className="inline-flex items-center rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-soft)]/72 px-3 py-2">
             <Image
-              src="/brand/logo-mark.svg"
-              alt="STAN BROS emblem"
-              width={44}
-              height={44}
-              className="h-11 w-11"
+              src="/brand/logo.svg"
+              alt="STAN BROS logo"
+              width={190}
+              height={126}
+              className="h-14 w-auto object-contain sm:h-16"
             />
-            <p className="font-display text-lg leading-none text-[var(--brand-strong)]">STAN BROS</p>
           </div>
 
           <div className="flex flex-wrap gap-2">

@@ -1,5 +1,5 @@
 export const DEFAULT_WHATSAPP_NUMBER_E164 =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER_E164 ?? "+918785751559";
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER_E164 ?? "+918754751559";
 
 export function toWhatsAppHref({
   numberE164,

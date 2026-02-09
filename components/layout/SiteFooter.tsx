@@ -12,6 +12,8 @@ export default function SiteFooter({ brandName }: { brandName: string }) {
   const brand = getBrand();
   const { lang } = useLanguage();
   const isEn = lang === "en";
+  const [brandPrimary, ...brandSuffixParts] = brandName.split(" ");
+  const brandSecondary = brandSuffixParts.join(" ");
 
   return (
     <footer className="mt-16 border-t border-[var(--border-subtle)] bg-[var(--surface-soft)]/80">
@@ -22,12 +24,21 @@ export default function SiteFooter({ brandName }: { brandName: string }) {
               <div className="flex items-center gap-3">
                 <Image
                   src="/brand/logo-mark.svg"
-                  alt={`${brandName} emblem`}
-                  width={40}
-                  height={40}
-                  className="h-10 w-10"
+                  alt={`${brandName} logo`}
+                  width={50}
+                  height={50}
+                  className="h-11 w-11 rounded-full object-cover ring-1 ring-[var(--border-subtle)]"
                 />
-                <p className="font-display text-2xl text-[var(--brand-strong)]">{brandName}</p>
+                <span className="inline-flex items-center gap-1 rounded-full border border-[var(--border-subtle)] bg-[var(--surface-muted)]/80 px-2.5 py-1">
+                  <span className="font-display text-xs uppercase tracking-[0.22em] text-[var(--brand-strong)] sm:text-sm">
+                    {brandPrimary}
+                  </span>
+                  {brandSecondary ? (
+                    <span className="font-display text-xs uppercase tracking-[0.22em] text-[var(--accent-strong)] sm:text-sm">
+                      {brandSecondary}
+                    </span>
+                  ) : null}
+                </span>
               </div>
               <p className="text-sm font-semibold text-slate-700">
                 {isEn ? brand.tagline.en : brand.tagline.ta}
