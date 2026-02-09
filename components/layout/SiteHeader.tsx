@@ -42,10 +42,10 @@ export default function SiteHeader({ brandName }: { brandName: string }) {
               <Image
                 src="/brand/logo.svg"
                 alt={brandName}
-                width={164}
-                height={36}
+                width={236}
+                height={72}
                 priority
-                className="h-7 w-auto sm:h-8"
+                className="h-10 w-auto sm:h-11"
               />
               <span className="sr-only">{brandName}</span>
             </Link>

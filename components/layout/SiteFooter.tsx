@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/ui/Container";
 import WhatsAppLink from "@/components/shared/WhatsAppLink";
@@ -18,7 +19,16 @@ export default function SiteFooter({ brandName }: { brandName: string }) {
         <div className="py-10">
           <div className="grid gap-8 md:grid-cols-3">
             <div className="space-y-2">
-              <p className="font-display text-2xl text-[var(--brand-strong)]">{brandName}</p>
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/brand/logo-mark.svg"
+                  alt={`${brandName} emblem`}
+                  width={40}
+                  height={40}
+                  className="h-10 w-10"
+                />
+                <p className="font-display text-2xl text-[var(--brand-strong)]">{brandName}</p>
+              </div>
               <p className="text-sm font-semibold text-slate-700">
                 {isEn ? brand.tagline.en : brand.tagline.ta}
               </p>

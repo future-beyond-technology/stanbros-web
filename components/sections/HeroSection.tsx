@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
@@ -76,6 +77,17 @@ export default function HeroSection() {
           variants={fadeUp}
           transition={{ duration: 0.35, ease: [0.22, 0.61, 0.36, 1] }}
         >
+          <div className="inline-flex items-center gap-3 rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface-soft)]/70 px-3 py-2">
+            <Image
+              src="/brand/logo-mark.svg"
+              alt="STAN BROS emblem"
+              width={44}
+              height={44}
+              className="h-11 w-11"
+            />
+            <p className="font-display text-lg leading-none text-[var(--brand-strong)]">STAN BROS</p>
+          </div>
+
           <div className="flex flex-wrap gap-2">
             <Badge>{content.badgeA}</Badge>
             <Badge>{content.badgeB}</Badge>

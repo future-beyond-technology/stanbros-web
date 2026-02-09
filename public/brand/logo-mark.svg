@@ -1,0 +1,25 @@
+<svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="12" y1="12" x2="132" y2="132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7D98A"/>
+      <stop offset="0.55" stop-color="#D6A338"/>
+      <stop offset="1" stop-color="#B98317"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="72" cy="72" r="66" fill="#121417"/>
+  <circle cx="72" cy="72" r="58" stroke="url(#gold)" stroke-width="6"/>
+
+  <path d="M72 36L76 46H87L78 52L82 62L72 56L62 62L66 52L57 46H68L72 36Z" fill="#E1AF45"/>
+  <circle cx="54" cy="50" r="4" fill="#D6A338"/>
+  <circle cx="90" cy="50" r="4" fill="#D6A338"/>
+
+  <circle cx="56" cy="69" r="11" fill="#E5C06E"/>
+  <circle cx="88" cy="69" r="11" fill="#E5C06E"/>
+  <path d="M41 98C44 86 51 79 60 79C69 79 76 86 78 98" stroke="#E5C06E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M66 98C69 86 76 79 85 79C94 79 101 86 104 98" stroke="#DAB45C" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="67" cy="87" r="5" fill="#E1AF45"/>
+  <circle cx="77" cy="87" r="5" fill="#E1AF45"/>
+  <path d="M69 88H75" stroke="#F3D58E" stroke-width="2.3" stroke-linecap="round"/>
+</svg>

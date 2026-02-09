@@ -1,20 +1,32 @@
-<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="430" height="138" viewBox="0 0 430 138" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="220" y2="48" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6D5EFC"/>
-      <stop offset="0.5" stop-color="#29D3FF"/>
-      <stop offset="1" stop-color="#FFD166"/>
+    <linearGradient id="gold" x1="16" y1="16" x2="114" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7D98A"/>
+      <stop offset="0.55" stop-color="#D6A338"/>
+      <stop offset="1" stop-color="#B98317"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="150" y1="84" x2="410" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9AA45"/>
+      <stop offset="1" stop-color="#BC8A2B"/>
     </linearGradient>
   </defs>
-  <rect x="1.5" y="1.5" width="45" height="45" rx="14" stroke="rgba(255,255,255,0.2)"/>
-  <path d="M14 30.5V17.5C14 16.12 15.12 15 16.5 15H31.5C32.88 15 34 16.12 34 17.5V30.5C34 31.88 32.88 33 31.5 33H16.5C15.12 33 14 31.88 14 30.5Z" fill="url(#g)" opacity="0.9"/>
-  <path d="M18.5 21.5H29.5" stroke="#0A0B10" stroke-width="2.2" stroke-linecap="round"/>
-  <path d="M18.5 26.5H26.5" stroke="#0A0B10" stroke-width="2.2" stroke-linecap="round"/>
-  <text x="58" y="30" fill="white" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="700" letter-spacing="0.6">
-    STAN BROS
-  </text>
-  <text x="58" y="42" fill="rgba(255,255,255,0.72)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="10" font-weight="500">
-    Mobile " Clothing " Footwear
-  </text>
-</svg>
 
+  <circle cx="69" cy="66" r="57" fill="#121417"/>
+  <circle cx="69" cy="66" r="51" stroke="url(#gold)" stroke-width="5"/>
+
+  <path d="M58 37L61 44H69L63 48L66 55L58 50L50 55L53 48L47 44H55L58 37Z" fill="#E1AF45"/>
+  <circle cx="45" cy="45" r="3.2" fill="#D6A338"/>
+  <circle cx="81" cy="45" r="3.2" fill="#D6A338"/>
+
+  <circle cx="51" cy="62" r="10" fill="#E5C06E"/>
+  <circle cx="87" cy="62" r="10" fill="#E5C06E"/>
+  <path d="M36 88C39 78 45 73 53 73C61 73 67 78 69 88" stroke="#E5C06E" stroke-width="7" stroke-linecap="round"/>
+  <path d="M69 88C71 78 77 73 85 73C93 73 99 78 102 88" stroke="#DAB45C" stroke-width="7" stroke-linecap="round"/>
+
+  <circle cx="63" cy="78" r="4.6" fill="#E1AF45"/>
+  <circle cx="75" cy="78" r="4.6" fill="#E1AF45"/>
+  <path d="M67 79H71" stroke="#F3D58E" stroke-width="2.2" stroke-linecap="round"/>
+
+  <text x="140" y="84" fill="#14181E" font-family="Segoe UI, Arial Black, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="1.8">STAN</text>
+  <text x="222" y="132" fill="url(#goldText)" font-family="Segoe UI, Arial Black, Arial, sans-serif" font-size="66" font-style="italic" font-weight="800" letter-spacing="1.6">BROS</text>
+</svg>
