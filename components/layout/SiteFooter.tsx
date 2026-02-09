@@ -62,20 +62,24 @@ export default function SiteFooter({ brandName }: { brandName: string }) {
               </div>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-4">
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">
                 {isEn ? "Enquiry" : "விசாரணை"}
               </p>
-              <WhatsAppLink
-                message={
-                  isEn ? brand.whatsapp.defaultMessage.en : brand.whatsapp.defaultMessage.ta
-                }
-              >
-                <Button size="sm" className="w-full sm:w-auto">
-                  {isEn ? "Chat on WhatsApp" : "WhatsApp-ல் தொடர்பு"}
-                </Button>
-              </WhatsAppLink>
-              <p className="text-xs font-semibold text-slate-500">{brand.whatsapp.numberE164}</p>
+              <div>
+                <WhatsAppLink
+                  message={
+                    isEn ? brand.whatsapp.defaultMessage.en : brand.whatsapp.defaultMessage.ta
+                  }
+                >
+                  <Button size="sm" className="w-full sm:w-auto">
+                    {isEn ? "Chat on WhatsApp" : "WhatsApp-ல் தொடர்பு"}
+                  </Button>
+                </WhatsAppLink>
+                <p className="mt-4 pl-0.5 text-xs font-semibold tracking-wide text-slate-500">
+                  {brand.whatsapp.numberE164}
+                </p>
+              </div>
             </div>
           </div>
 
