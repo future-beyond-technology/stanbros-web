@@ -1,0 +1,37 @@
+{
+  "units": [
+    {
+      "slug": "stan-bros-mobile",
+      "path": "/mobile",
+      "name": { "en": "STAN BROS Mobile & Accessories", "ta": "STAN BROS மொபைல் & ஆக்சஸரீஸ்" },
+      "category": { "en": "Mobile Phones & Essentials", "ta": "மொபைல் போன்கள் மற்றும் தேவையான ஆக்சஸரீஸ்" },
+      "short": {
+        "en": "Carefully selected phones, daily-use accessories, and clear buying guidance.",
+        "ta": "தேர்ந்தெடுக்கப்பட்ட போன்கள், அன்றாட ஆக்சஸரீஸ், தெளிவான வாங்கும் வழிகாட்டுதல்."
+      },
+      "accent": "brand"
+    },
+    {
+      "slug": "lads-and-looms",
+      "path": "/lads-and-looms",
+      "name": { "en": "STAN BROS Lads & Looms", "ta": "STAN BROS லாட்ஸ் & லூம்ஸ்" },
+      "category": { "en": "Men's Clothing", "ta": "ஆண்கள் உடை" },
+      "short": {
+        "en": "Reliable fits for workdays, evenings, and family occasions.",
+        "ta": "வேலை நாள், வெளியூர் நேரம், குடும்ப நிகழ்ச்சிகளுக்கான நம்பகமான அணிவகைகள்."
+      },
+      "accent": "brand-2"
+    },
+    {
+      "slug": "stan-bros-shoe-shop",
+      "path": "/shoe-shop",
+      "name": { "en": "STAN BROS Shoe Shop", "ta": "STAN BROS ஷூ ஷாப்" },
+      "category": { "en": "Footwear", "ta": "காலணி" },
+      "short": {
+        "en": "Comfort-first footwear for casual, formal, and active routines.",
+        "ta": "கேஷுவல், ஃபார்மல், விளையாட்டு பயன்பாட்டுக்கு வசதியான காலணிகள்."
+      },
+      "accent": "brand-3"
+    }
+  ]
+}

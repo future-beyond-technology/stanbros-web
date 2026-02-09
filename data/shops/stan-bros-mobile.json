@@ -1,0 +1,28 @@
+{
+  "slug": "stan-bros-mobile",
+  "name": { "en": "STAN BROS Mobile", "ta": "ஸ்டான் ப்ரோஸ் மொபைல்" },
+  "hero": {
+    "title": { "en": "Mobiles made easy.", "ta": "மொபைல் வாங்குவது எளிது." },
+    "subtitle": {
+      "en": "Phones, accessories, and friendly guidance—enquire on WhatsApp.",
+      "ta": "போன்கள், ஆக்சஸரீஸ், நட்பான ஆலோசனை—WhatsApp மூலம் கேட்டறியுங்கள்."
+    }
+  },
+  "highlights": [
+    { "en": "Latest models & best-value picks", "ta": "புதிய மாடல்கள் & மதிப்புள்ள தேர்வுகள்" },
+    { "en": "Accessories: cases, chargers, earphones", "ta": "ஆக்சஸரீஸ்: கேஸ், சார்ஜர், இயர்போன்" },
+    { "en": "Quick support for basic issues", "ta": "சிறிய பிரச்சினைகளுக்கு விரைவான உதவி" }
+  ],
+  "categories": [
+    { "en": "Smartphones", "ta": "ஸ்மார்ட்போன்கள்" },
+    { "en": "Accessories", "ta": "ஆக்சஸரீஸ்" },
+    { "en": "Audio", "ta": "ஆடியோ" },
+    { "en": "Wearables", "ta": "வியரபிள்ஸ்" }
+  ],
+  "enquiryPresets": [
+    { "en": "I want a phone under ₹15,000", "ta": "₹15,000 க்குள் ஒரு போன் வேண்டும்" },
+    { "en": "Need a fast charger", "ta": "ஒரு ஃபாஸ்ட் சார்ஜர் வேண்டும்" },
+    { "en": "Suggest a good earphone", "ta": "ஒரு நல்ல இயர்போன் சொல்லுங்கள்" }
+  ]
+}
+

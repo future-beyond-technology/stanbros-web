@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Home",
+    "shops": "Shop Units",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "home": {
+    "ctaPrimary": "WhatsApp Enquiry",
+    "ctaSecondary": "View all shops",
+    "trust": "Fast replies • Clear guidance • Mobile-first experience"
+  },
+  "contact": {
+    "title": "Contact STAN BROS",
+    "subtitle": "For quickest response, message us on WhatsApp."
+  }
+}
+

@@ -1,0 +1,28 @@
+{
+  "slug": "lads-and-looms",
+  "name": { "en": "STAN BROS Lads & Looms", "ta": "ஸ்டான் ப்ரோஸ் லாட்ஸ் & லூம்ஸ்" },
+  "hero": {
+    "title": { "en": "Clothing with confidence.", "ta": "நம்பிக்கையுடன் அணியுங்கள்." },
+    "subtitle": {
+      "en": "Everyday essentials to occasion wear—enquire on WhatsApp.",
+      "ta": "அன்றாட பயன்பாட்டிலிருந்து விழா உடை வரை—WhatsApp மூலம் கேட்டறியுங்கள்."
+    }
+  },
+  "highlights": [
+    { "en": "Quality fabric & comfortable fits", "ta": "தரமான துணி & வசதியான ஃபிட்" },
+    { "en": "Seasonal collections", "ta": "காலாண்டு கலெக்ஷன்கள்" },
+    { "en": "Friendly size guidance", "ta": "அளவு தேர்வுக்கு உதவி" }
+  ],
+  "categories": [
+    { "en": "Shirts", "ta": "ஷர்ட்ஸ்" },
+    { "en": "T-Shirts", "ta": "டி-ஷர்ட்ஸ்" },
+    { "en": "Jeans & Trousers", "ta": "ஜீன்ஸ் & ட்ரௌசர்ஸ்" },
+    { "en": "Kids & Casual", "ta": "கிட்ஸ் & கேஷுவல்" }
+  ],
+  "enquiryPresets": [
+    { "en": "Looking for a shirt for function", "ta": "விழாவுக்கு ஒரு ஷர்ட் வேண்டும்" },
+    { "en": "Need daily wear basics", "ta": "அன்றாட உடைகள் வேண்டும்" },
+    { "en": "Suggest sizes for me", "ta": "எனக்கு அளவு சொல்லுங்கள்" }
+  ]
+}
+

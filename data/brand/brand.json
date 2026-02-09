@@ -1,0 +1,27 @@
+{
+  "name": "STAN BROS",
+  "domain": "stanbros.in",
+  "tagline": {
+    "en": "A trusted local retail brand built by brothers.",
+    "ta": "சகோதரர்கள் உருவாக்கிய நம்பகமான உள்ளூர் விற்பனை பிராண்ட்."
+  },
+  "city": {
+    "en": "Tamil Nadu",
+    "ta": "தமிழ்நாடு"
+  },
+  "founders": {
+    "en": "Founded by brothers Stains & Stanley",
+    "ta": "சகோதரர்கள் ஸ்டைன்ஸ் மற்றும் ஸ்டான்லி நிறுவியது"
+  },
+  "quote": {
+    "en": "When brothers stand for the same promise, every customer is served with trust.",
+    "ta": "ஒரே வாக்குறுதிக்காக சகோதரர்கள் ஒன்றாக நிற்கும் போது, ஒவ்வொரு வாடிக்கையாளருக்கும் நம்பிக்கையுடன் சேவை கிடைக்கும்."
+  },
+  "whatsapp": {
+    "numberE164": "+919000000000",
+    "defaultMessage": {
+      "en": "Hi STAN BROS, I would like to know today’s availability and best price.",
+      "ta": "வணக்கம் STAN BROS, இன்று கிடைக்கும் பொருட்களும் சிறந்த விலையும் பற்றி தெரிந்துகொள்ள விரும்புகிறேன்."
+    }
+  }
+}

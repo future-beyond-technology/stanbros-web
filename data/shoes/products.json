@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "id": "urban-casual-sneaker",
+      "name": {
+        "en": "Urban Casual Sneaker",
+        "ta": "அர்பன் கேஷுவல் ஸ்னீக்கர்"
+      },
+      "category": {
+        "en": "Casual Shoes",
+        "ta": "கேஷுவல் ஷூஸ்"
+      },
+      "description": {
+        "en": "Everyday casual sneaker with soft inner comfort.",
+        "ta": "அன்றாட பயன்பாட்டுக்கு மென்மையான உள்ளக வசதியுடன் கேஷுவல் ஸ்னீக்கர்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    },
+    {
+      "id": "slip-on-casual-shoe",
+      "name": {
+        "en": "Slip-On Casual Shoe",
+        "ta": "ஸ்லிப்-ஆன் கேஷுவல் ஷூ"
+      },
+      "category": {
+        "en": "Casual Shoes",
+        "ta": "கேஷுவல் ஷூஸ்"
+      },
+      "description": {
+        "en": "Easy wear style for travel, market visits, and regular outings.",
+        "ta": "பயணம், மார்க்கெட், அன்றாட வெளியூர் பயன்பாட்டுக்கு சுலபமான வடிவம்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/1032110/pexels-photo-1032110.jpeg"
+    },
+    {
+      "id": "executive-formal-black",
+      "name": {
+        "en": "Executive Formal Black",
+        "ta": "எக்ஸிகியூட்டிவ் பிளாக் ஃபார்மல்"
+      },
+      "category": {
+        "en": "Formal Shoes",
+        "ta": "ஃபார்மல் ஷூஸ்"
+      },
+      "description": {
+        "en": "Polished black formal shoes for office and functions.",
+        "ta": "அலுவலகம் மற்றும் நிகழ்ச்சிகளுக்கான பொலிஷ் செய்யப்பட்ட கருப்பு ஃபார்மல் ஷூ."
+      },
+      "imageUrl": "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg"
+    },
+    {
+      "id": "brown-derby-formal",
+      "name": {
+        "en": "Brown Derby Formal",
+        "ta": "பிரவுன் டர்பி ஃபார்மல்"
+      },
+      "category": {
+        "en": "Formal Shoes",
+        "ta": "ஃபார்மல் ஷூஸ்"
+      },
+      "description": {
+        "en": "Classic derby profile that pairs well with formal trousers.",
+        "ta": "ஃபார்மல் பேன்ட் உடன் நன்றாக பொருந்தும் கிளாசிக் டர்பி வடிவம்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/19090/pexels-photo.jpg"
+    },
+    {
+      "id": "runner-pro-sport",
+      "name": {
+        "en": "Runner Pro Sports Shoe",
+        "ta": "ரன்னர் ப்ரோ ஸ்போர்ட்ஸ் ஷூ"
+      },
+      "category": {
+        "en": "Sports Shoes",
+        "ta": "ஸ்போர்ட்ஸ் ஷூஸ்"
+      },
+      "description": {
+        "en": "Lightweight sole support for jogging and active routines.",
+        "ta": "ஜாக்கிங் மற்றும் செயலில் இருக்கும் தினசரிக்கான இலகுவான sole ஆதரம்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    },
+    {
+      "id": "training-flex-shoe",
+      "name": {
+        "en": "Training Flex Sports Shoe",
+        "ta": "ட்ரெய்னிங் ஃப்ளெக்ஸ் ஸ்போர்ட்ஸ் ஷூ"
+      },
+      "category": {
+        "en": "Sports Shoes",
+        "ta": "ஸ்போர்ட்ஸ் ஷூஸ்"
+      },
+      "description": {
+        "en": "Breathable sports model for gym and daily walking.",
+        "ta": "ஜிம் மற்றும் தினசரி நடைப்பயிற்சிக்கான சுவாசிக்கும் ஸ்போர்ட்ஸ் மாடல்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg"
+    },
+    {
+      "id": "comfort-strap-sandal",
+      "name": {
+        "en": "Comfort Strap Sandal",
+        "ta": "கம்ஃபர்ட் ஸ்ட்ராப் செண்டல்"
+      },
+      "category": {
+        "en": "Sandals",
+        "ta": "செண்டல்கள்"
+      },
+      "description": {
+        "en": "Soft-strap sandal for all-day use at home or outside.",
+        "ta": "வீட்டிலும் வெளிப்பயணத்திலும் அணிய ஏற்ற மென்மையான strap செண்டல்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg"
+    },
+    {
+      "id": "everyday-grip-slipper",
+      "name": {
+        "en": "Everyday Grip Slipper",
+        "ta": "எவரிடே கிரிப் ஸ்லிப்பர்"
+      },
+      "category": {
+        "en": "Slippers",
+        "ta": "ஸ்லிப்பர்கள்"
+      },
+      "description": {
+        "en": "Comfort slipper with anti-slip grip for routine daily use.",
+        "ta": "அன்றாட பயன்பாட்டுக்கான anti-slip பிடியுடன் வசதியான ஸ்லிப்பர்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/845434/pexels-photo-845434.jpeg"
+    }
+  ]
+}

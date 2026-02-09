@@ -1,0 +1,56 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="rg1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 40) rotate(30) scale(720 380)">
+      <stop stop-color="#6D5EFC" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#0A0B10" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rg2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 120) rotate(-15) scale(640 360)">
+      <stop stop-color="#29D3FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0A0B10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0B10"/>
+      <stop offset="1" stop-color="#0B0C14"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="420" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D5EFC"/>
+      <stop offset="0.55" stop-color="#29D3FF"/>
+      <stop offset="1" stop-color="#FFD166"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#lg)"/>
+  <rect width="1200" height="630" fill="url(#rg1)"/>
+  <rect width="1200" height="630" fill="url(#rg2)"/>
+
+  <g transform="translate(84 110)">
+    <rect x="0" y="0" width="88" height="88" rx="26" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+    <rect x="16" y="18" width="56" height="52" rx="14" fill="url(#brand)" opacity="0.9"/>
+    <path d="M28 40H60" stroke="#0A0B10" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M28 54H50" stroke="#0A0B10" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+
+  <text x="200" y="160" fill="white" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="56" font-weight="800" letter-spacing="1.2">
+    STAN BROS
+  </text>
+  <text x="200" y="220" fill="rgba(238,240,255,0.78)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="22" font-weight="600">
+    One brand " Three trusted shops " WhatsApp enquiry
+  </text>
+  <text x="200" y="260" fill="rgba(238,240,255,0.62)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="500">
+    Mobile " Lads & Looms (Clothing) " Shoe Shop
+  </text>
+
+  <g transform="translate(200 320)">
+    <rect x="0" y="0" width="820" height="210" rx="24" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+    <text x="36" y="64" fill="white" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="26" font-weight="750">
+      Demo: English + Tamil on the same page
+    </text>
+    <text x="36" y="108" fill="rgba(238,240,255,0.74)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="600">
+      Fast replies " Clear guidance " Mobile-first
+    </text>
+    <text x="36" y="152" fill="rgba(238,240,255,0.62)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="500">
+      ŸÆ®Ë: ’°Ç ª•Í•¤Í¤¿²Í English + Tamil
+    </text>
+  </g>
+</svg>
+

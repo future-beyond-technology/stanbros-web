@@ -1,26 +1,179 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6f1e8;
+  --foreground: #1f1a14;
+
+  --surface-soft: #fffdfa;
+  --surface-muted: #f7efe2;
+  --surface-contrast: #ece1cf;
+  --border-subtle: #ddcfbc;
+
+  --brand: #244237;
+  --brand-strong: #162b23;
+  --brand-soft: #dce7e0;
+
+  --accent: #b8925a;
+  --accent-strong: #8a693f;
+  --accent-soft: #f4e9d8;
+
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --radius-md: 12px;
+
+  --shadow-soft: 0 16px 40px rgba(32, 24, 16, 0.08);
+  --shadow-lift: 0 22px 50px rgba(30, 21, 14, 0.12);
+  --shadow-liquid: 0 20px 50px rgba(36, 66, 55, 0.14);
+  --liquid-border: rgba(255, 255, 255, 0.55);
+  --liquid-highlight: rgba(255, 255, 255, 0.62);
+  --liquid-wash: rgba(247, 239, 226, 0.66);
+
+  --font-body: "Avenir Next", "Manrope", "Segoe UI", "Noto Sans Tamil", sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-body);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  letter-spacing: 0.01em;
+}
+
+.sb-shell {
+  min-height: 100dvh;
+  background:
+    radial-gradient(circle at 0% 0%, rgba(184, 146, 90, 0.16), transparent 36%),
+    radial-gradient(circle at 96% 14%, rgba(36, 66, 55, 0.14), transparent 38%),
+    linear-gradient(180deg, rgba(255, 253, 250, 0.78), rgba(246, 241, 232, 1));
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+.premium-grid {
+  background-image:
+    linear-gradient(to right, rgba(22, 43, 35, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(22, 43, 35, 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+  mask-image: radial-gradient(circle at center, black 36%, transparent 92%);
+}
+
+.liquid-shell {
+  border: 1px solid var(--liquid-border);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.75) 0%,
+      var(--liquid-wash) 54%,
+      rgba(220, 231, 224, 0.58) 100%
+    );
+  backdrop-filter: blur(12px) saturate(108%);
+  box-shadow: var(--shadow-liquid);
+}
+
+.liquid-card {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background:
+    linear-gradient(
+      160deg,
+      rgba(255, 255, 255, 0.88) 0%,
+      rgba(247, 239, 226, 0.72) 58%,
+      rgba(220, 231, 224, 0.64) 100%
+    );
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 26px rgba(21, 34, 28, 0.1);
+}
+
+.liquid-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.liquid-shine::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(
+    120deg,
+    transparent 18%,
+    var(--liquid-highlight) 48%,
+    transparent 76%
+  );
+  opacity: 0.14;
+  transform: translateX(-70%);
+  animation: liquid-sheen 16s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.liquid-orb {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(32px);
+  opacity: 0.3;
+  animation: liquid-float 12s ease-in-out infinite;
+}
+
+.liquid-orb-a {
+  width: 220px;
+  height: 220px;
+  top: -70px;
+  left: -50px;
+  background: radial-gradient(circle at 30% 30%, rgba(184, 146, 90, 0.7), transparent 72%);
+}
+
+.liquid-orb-b {
+  width: 260px;
+  height: 260px;
+  right: -90px;
+  bottom: -90px;
+  background: radial-gradient(circle at 38% 40%, rgba(36, 66, 55, 0.68), transparent 72%);
+  animation-delay: 1.4s;
+}
+
+@keyframes liquid-float {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(10px, -12px, 0) scale(1.04);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes liquid-sheen {
+  0% {
+    transform: translateX(-70%);
+  }
+  42% {
+    transform: translateX(65%);
+  }
+  100% {
+    transform: translateX(65%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

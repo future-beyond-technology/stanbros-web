@@ -1,0 +1,28 @@
+{
+  "slug": "stan-bros-shoe-shop",
+  "name": { "en": "STAN BROS Shoe Shop", "ta": "ஸ்டான் ப்ரோஸ் ஷூ ஷாப்" },
+  "hero": {
+    "title": { "en": "Comfort-first footwear.", "ta": "வசதியே முதல்." },
+    "subtitle": {
+      "en": "School, office, casual, and sandals—enquire on WhatsApp.",
+      "ta": "ஸ்கூல், ஆபிஸ், கேஷுவல், செருப்பு—WhatsApp மூலம் கேட்டறியுங்கள்."
+    }
+  },
+  "highlights": [
+    { "en": "Durable picks for daily use", "ta": "அன்றாட பயன்பாட்டிற்கு நீடித்த தேர்வுகள்" },
+    { "en": "All ages & sizes", "ta": "அனைத்து வயது & அளவுகள்" },
+    { "en": "Best-fit guidance", "ta": "சரியான ஃபிட் ஆலோசனை" }
+  ],
+  "categories": [
+    { "en": "Shoes", "ta": "ஷூஸ்" },
+    { "en": "Sandals", "ta": "செண்டல்ஸ்" },
+    { "en": "School Footwear", "ta": "ஸ்கூல் காலணி" },
+    { "en": "Sports", "ta": "ஸ்போர்ட்ஸ்" }
+  ],
+  "enquiryPresets": [
+    { "en": "Need school shoes (size 7)", "ta": "ஸ்கூல் ஷூஸ் வேண்டும் (சைஸ் 7)" },
+    { "en": "Looking for comfy sandals", "ta": "வசதியான செருப்பு வேண்டும்" },
+    { "en": "Suggest budget sports shoes", "ta": "பட்ஜெட் ஸ்போர்ட்ஸ் ஷூஸ் சொல்லுங்கள்" }
+  ]
+}
+

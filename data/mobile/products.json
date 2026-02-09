@@ -1,0 +1,272 @@
+{
+  "phones": [
+    {
+      "id": "iphone-16-128",
+      "brand": "Apple",
+      "name": {
+        "en": "Apple iPhone 16 (128GB)",
+        "ta": "ஆப்பிள் ஐபோன் 16 (128GB)"
+      },
+      "description": {
+        "en": "Flagship iPhone with strong camera clarity and smooth everyday performance.",
+        "ta": "சிறந்த கேமரா தரமும் மென்மையான செயல்திறனும் தரும் முன்னணி iPhone மாடல்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/5077044/pexels-photo-5077044.jpeg"
+    },
+    {
+      "id": "iphone-15-128",
+      "brand": "Apple",
+      "name": {
+        "en": "Apple iPhone 15 (128GB)",
+        "ta": "ஆப்பிள் ஐபோன் 15 (128GB)"
+      },
+      "description": {
+        "en": "Premium iPhone choice for photography, daily communication, and long-term use.",
+        "ta": "புகைப்படம், அன்றாட தொடர்பு, நீண்டகால பயன்பாட்டுக்கு ஏற்ற உயர்தர iPhone."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg"
+    },
+    {
+      "id": "samsung-s24-fe",
+      "brand": "Samsung",
+      "name": {
+        "en": "Samsung Galaxy S24 FE",
+        "ta": "சாம்சங் கேலக்ஸி S24 FE"
+      },
+      "description": {
+        "en": "Balanced flagship experience with bright display and premium build quality.",
+        "ta": "ஒளிரும் திரை மற்றும் உயர்தர உடல் தரத்துடன் சமநிலையான flagship அனுபவம்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/6078127/pexels-photo-6078127.jpeg"
+    },
+    {
+      "id": "samsung-a55",
+      "brand": "Samsung",
+      "name": {
+        "en": "Samsung Galaxy A55 5G",
+        "ta": "சாம்சங் கேலக்ஸி A55 5G"
+      },
+      "description": {
+        "en": "Reliable Samsung model for video, social apps, and all-day routine tasks.",
+        "ta": "வீடியோ, சமூக பயன்பாடுகள், அன்றாட பணிகளுக்கான நம்பகமான Samsung மாடல்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg"
+    },
+    {
+      "id": "redmi-note-13-pro",
+      "brand": "Redmi",
+      "name": {
+        "en": "Redmi Note 13 Pro 5G",
+        "ta": "ரெட்மி நோட் 13 ப்ரோ 5G"
+      },
+      "description": {
+        "en": "Value-focused phone with strong camera and battery support.",
+        "ta": "நல்ல கேமரா மற்றும் பேட்டரி ஆதரவுடன் மதிப்புள்ள தேர்வு."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg"
+    },
+    {
+      "id": "redmi-13-5g",
+      "brand": "Redmi",
+      "name": {
+        "en": "Redmi 13 5G",
+        "ta": "ரெட்மி 13 5G"
+      },
+      "description": {
+        "en": "Affordable 5G phone suitable for students and first-time smartphone users.",
+        "ta": "மாணவர்கள் மற்றும் முதல் ஸ்மார்ட்போன் பயனாளர்களுக்கு ஏற்ற சுலப விலை 5G மாடல்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/6078121/pexels-photo-6078121.jpeg"
+    },
+    {
+      "id": "realme-narzo-70-pro",
+      "brand": "Realme",
+      "name": {
+        "en": "realme Narzo 70 Pro",
+        "ta": "ரியல்மி நார்சோ 70 ப்ரோ"
+      },
+      "description": {
+        "en": "Smooth performer for streaming, social media, and regular multitasking.",
+        "ta": "ஸ்ட்ரீமிங், சமூக வலைதளம், அன்றாட பல பணிகளுக்கு மென்மையான செயல்திறன்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/6078123/pexels-photo-6078123.jpeg"
+    },
+    {
+      "id": "realme-p1",
+      "brand": "Realme",
+      "name": {
+        "en": "realme P1 5G",
+        "ta": "ரியல்மி P1 5G"
+      },
+      "description": {
+        "en": "Practical choice for daily calls, browsing, and media use.",
+        "ta": "தினசரி கால், உலாவல், மீடியா பயன்பாட்டுக்கு நடைமுறை தேர்வு."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/6077412/pexels-photo-6077412.jpeg"
+    },
+    {
+      "id": "vivo-v30e",
+      "brand": "Vivo",
+      "name": {
+        "en": "Vivo V30e",
+        "ta": "விவோ V30e"
+      },
+      "description": {
+        "en": "Stylish Vivo model with dependable battery and portrait-friendly camera.",
+        "ta": "நம்பகமான பேட்டரி மற்றும் நல்ல portrait கேமரா கொண்ட அழகான Vivo மாடல்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg"
+    },
+    {
+      "id": "oppo-reno-11",
+      "brand": "Oppo",
+      "name": {
+        "en": "Oppo Reno 11",
+        "ta": "ஒப்போ ரீனோ 11"
+      },
+      "description": {
+        "en": "Display-rich Oppo model for users who enjoy media and clear visuals.",
+        "ta": "மீடியா மற்றும் தெளிவான காட்சிகளை விரும்புவோருக்கு ஏற்ற திரை தரம் மிகுந்த Oppo மாடல்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/6078127/pexels-photo-6078127.jpeg"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "wired-earphones",
+      "name": {
+        "en": "Wired Earphones",
+        "ta": "வைர்டு இயர்போன்கள்"
+      },
+      "description": {
+        "en": "Clear call and music earphones for regular daily use.",
+        "ta": "தினசரி கால் மற்றும் இசைக்கான தெளிவான ஒலி கொண்ட இயர்போன்கள்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/159870/earphone-headphone-audio-equipment-159870.jpeg"
+    },
+    {
+      "id": "bluetooth-earbuds",
+      "name": {
+        "en": "Bluetooth Earbuds",
+        "ta": "புளூடூத் இயர்பட்ஸ்"
+      },
+      "description": {
+        "en": "Wireless earbuds suitable for travel, work, and workouts.",
+        "ta": "பயணம், வேலை, பயிற்சி ஆகியவற்றுக்கு ஏற்ற வயர்லெஸ் இயர்பட்ஸ்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/3945663/pexels-photo-3945663.jpeg"
+    },
+    {
+      "id": "fast-charger",
+      "name": {
+        "en": "Fast Charger",
+        "ta": "ஃபாஸ்ட் சார்ஜர்"
+      },
+      "description": {
+        "en": "Safe and fast charging support for major smartphone brands.",
+        "ta": "முக்கிய ஸ்மார்ட்போன் பிராண்டுகளுக்கு பாதுகாப்பான வேகமான சார்ஜிங் ஆதரம்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/91223/pexels-photo-91223.jpeg"
+    },
+    {
+      "id": "power-bank",
+      "name": {
+        "en": "Power Bank",
+        "ta": "பவர் பேங்க்"
+      },
+      "description": {
+        "en": "Portable backup power options for long travel and workdays.",
+        "ta": "பயணம் மற்றும் நீண்ட வேலை நாளுக்கான கைபேசி சார்ஜிங் ஆதரவு."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg"
+    },
+    {
+      "id": "mobile-cover",
+      "name": {
+        "en": "Mobile Cover",
+        "ta": "மொபைல் கவர்"
+      },
+      "description": {
+        "en": "Protective covers in simple and premium finishes for popular models.",
+        "ta": "பிரபல மாடல்களுக்கு எளிய மற்றும் பிரீமியம் வடிவங்களில் பாதுகாப்பு கவர்கள்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/860617/pexels-photo-860617.jpeg"
+    },
+    {
+      "id": "screen-protector",
+      "name": {
+        "en": "Screen Protector",
+        "ta": "ஸ்கிரீன் பாதுகாப்பு கண்ணாடி"
+      },
+      "description": {
+        "en": "Tempered and clear screen protectors for scratch resistance.",
+        "ta": "சிராய்ப்பை குறைக்கும் tempered மற்றும் clear screen பாதுகாப்பு தேர்வுகள்."
+      },
+      "priceLabel": {
+        "en": "Best price available",
+        "ta": "சிறந்த விலை கிடைக்கும்"
+      },
+      "imageUrl": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg"
+    }
+  ]
+}

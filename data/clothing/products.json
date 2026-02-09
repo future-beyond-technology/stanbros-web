@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "oxford-shirt-white",
+      "name": {
+        "en": "Oxford Classic Shirt",
+        "ta": "ஆக்ஸ்ஃபோர்ட் கிளாசிக் சட்டை"
+      },
+      "category": {
+        "en": "Shirts",
+        "ta": "ஷர்ட்ஸ்"
+      },
+      "description": {
+        "en": "Clean formal shirt suitable for office and evening meetings.",
+        "ta": "அலுவலகம் மற்றும் மாலை நேர சந்திப்புகளுக்கு ஏற்ற சுத்தமான ஃபார்மல் சட்டை."
+      },
+      "imageUrl": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg"
+    },
+    {
+      "id": "checked-cotton-shirt",
+      "name": {
+        "en": "Checked Cotton Shirt",
+        "ta": "சேக் காட்டன் சட்டை"
+      },
+      "category": {
+        "en": "Shirts",
+        "ta": "ஷர்ட்ஸ்"
+      },
+      "description": {
+        "en": "Soft checked shirt for comfortable everyday styling.",
+        "ta": "அன்றாட அணிவதற்கு வசதியான மென்மையான சேக் சட்டை."
+      },
+      "imageUrl": "https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg"
+    },
+    {
+      "id": "premium-crew-neck-tee",
+      "name": {
+        "en": "Premium Crew Neck T-Shirt",
+        "ta": "பிரீமியம் க்ரூ நெக் டி-ஷர்ட்"
+      },
+      "category": {
+        "en": "T-Shirts",
+        "ta": "டி-ஷர்ட்ஸ்"
+      },
+      "description": {
+        "en": "Breathable t-shirt for regular outings and travel.",
+        "ta": "வெளியே செல்லும் நேரம் மற்றும் பயணத்திற்கு ஏற்ற சுவாசிக்கும் டி-ஷர்ட்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg"
+    },
+    {
+      "id": "graphic-weekend-tee",
+      "name": {
+        "en": "Graphic Weekend T-Shirt",
+        "ta": "கிராபிக் வீக்கெண்ட் டி-ஷர்ட்"
+      },
+      "category": {
+        "en": "T-Shirts",
+        "ta": "டி-ஷர்ட்ஸ்"
+      },
+      "description": {
+        "en": "Casual fit t-shirt with subtle print for weekend wear.",
+        "ta": "வார இறுதி அணிவதற்கு மென்மையான பிரிண்ட் கொண்ட கேஷுவல் டி-ஷர்ட்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/994517/pexels-photo-994517.jpeg"
+    },
+    {
+      "id": "formal-tapered-pants",
+      "name": {
+        "en": "Formal Tapered Pants",
+        "ta": "ஃபார்மல் டேப்பர்டு பேன்ட்"
+      },
+      "category": {
+        "en": "Pants",
+        "ta": "பேன்ட்ஸ்"
+      },
+      "description": {
+        "en": "Tailored pants with neat structure for workday dressing.",
+        "ta": "வேலை நாளுக்கான சீரான அமைப்புடன் தைக்கப்பட்ட ஃபார்மல் பேன்ட்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg"
+    },
+    {
+      "id": "comfort-chino-pants",
+      "name": {
+        "en": "Comfort Chino Pants",
+        "ta": "கம்ஃபர்ட் சைனோ பேன்ட்"
+      },
+      "category": {
+        "en": "Pants",
+        "ta": "பேன்ட்ஸ்"
+      },
+      "description": {
+        "en": "Smart-casual pants for office, travel, and evening plans.",
+        "ta": "அலுவலகம், பயணம், மாலை நேர சந்திப்புகளுக்கு ஏற்ற smart-casual பேன்ட்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/5325886/pexels-photo-5325886.jpeg"
+    },
+    {
+      "id": "classic-denim-jeans",
+      "name": {
+        "en": "Classic Denim Jeans",
+        "ta": "கிளாசிக் டெனிம் ஜீன்ஸ்"
+      },
+      "category": {
+        "en": "Jeans",
+        "ta": "ஜீன்ஸ்"
+      },
+      "description": {
+        "en": "Everyday denim with a balanced fit and durable fabric.",
+        "ta": "சமநிலை fit மற்றும் நீடித்த துணியுடன் அன்றாட பயன்பாட்டுக்கான டெனிம்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg"
+    },
+    {
+      "id": "indigo-stretch-jeans",
+      "name": {
+        "en": "Indigo Stretch Jeans",
+        "ta": "இண்டிகோ ஸ்ட்ரெட்ச் ஜீன்ஸ்"
+      },
+      "category": {
+        "en": "Jeans",
+        "ta": "ஜீன்ஸ்"
+      },
+      "description": {
+        "en": "Flexible jeans for day-long comfort and easy movement.",
+        "ta": "முழு நாள் வசதியாக அணியக்கூடிய சுலப இயக்கத்துடன் ஜீன்ஸ்."
+      },
+      "imageUrl": "https://images.pexels.com/photos/6764014/pexels-photo-6764014.jpeg"
+    },
+    {
+      "id": "cotton-kurta-set",
+      "name": {
+        "en": "Cotton Kurta Set",
+        "ta": "காட்டன் குர்தா செட்"
+      },
+      "category": {
+        "en": "Traditional Wear",
+        "ta": "பாரம்பரிய உடை"
+      },
+      "description": {
+        "en": "Traditional wear option for festive and family occasions.",
+        "ta": "திருவிழா மற்றும் குடும்ப நிகழ்ச்சிகளுக்கான பாரம்பரிய அணிவகை."
+      },
+      "imageUrl": "https://images.pexels.com/photos/1261428/pexels-photo-1261428.jpeg"
+    }
+  ]
+}

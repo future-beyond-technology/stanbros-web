@@ -1,3 +1,26 @@
+# STAN BROS (Demo)
+
+Next.js (App Router) + Tailwind CSS v4 demo site for **STAN BROS**.
+
+## Demo highlights
+
+- Multi-unit brand structure (Mobile / Clothing / Shoe Shop)
+- English + Tamil shown together on key UI
+- WhatsApp-based enquiry CTAs (no backend)
+
+## Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Environment
+
+Copy `.env.example` to `.env.local` and set:
+
+- `NEXT_PUBLIC_WHATSAPP_NUMBER_E164`
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

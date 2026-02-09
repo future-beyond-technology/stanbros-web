@@ -1,0 +1,20 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="220" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D5EFC"/>
+      <stop offset="0.5" stop-color="#29D3FF"/>
+      <stop offset="1" stop-color="#FFD166"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="45" height="45" rx="14" stroke="rgba(255,255,255,0.2)"/>
+  <path d="M14 30.5V17.5C14 16.12 15.12 15 16.5 15H31.5C32.88 15 34 16.12 34 17.5V30.5C34 31.88 32.88 33 31.5 33H16.5C15.12 33 14 31.88 14 30.5Z" fill="url(#g)" opacity="0.9"/>
+  <path d="M18.5 21.5H29.5" stroke="#0A0B10" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M18.5 26.5H26.5" stroke="#0A0B10" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="58" y="30" fill="white" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="700" letter-spacing="0.6">
+    STAN BROS
+  </text>
+  <text x="58" y="42" fill="rgba(255,255,255,0.72)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="10" font-weight="500">
+    Mobile " Clothing " Footwear
+  </text>
+</svg>
+
