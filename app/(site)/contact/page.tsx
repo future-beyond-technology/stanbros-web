@@ -85,12 +85,29 @@ export default function ContactPage() {
             className="text-lg font-semibold text-[var(--brand-strong)]"
           />
 
-          <BilingualText
-            as="p"
-            en="1. Product or category name\n2. Budget range\n3. Preferred brand or size"
-            ta="1. பொருள் அல்லது பிரிவு பெயர்\n2. பட்ஜெட் வரம்பு\n3. விருப்பமான பிராண்ட் அல்லது அளவு"
-            className="whitespace-pre-line text-sm font-medium leading-relaxed text-slate-700"
-          />
+          <ol className="list-decimal space-y-1.5 pl-5 text-sm font-medium leading-relaxed text-slate-700">
+            <li>
+              <BilingualText
+                as="span"
+                en="Product or category name"
+                ta="பொருள் அல்லது பிரிவு பெயர்"
+              />
+            </li>
+            <li>
+              <BilingualText
+                as="span"
+                en="Budget range"
+                ta="பட்ஜெட் வரம்பு"
+              />
+            </li>
+            <li>
+              <BilingualText
+                as="span"
+                en="Preferred brand or size"
+                ta="விருப்பமான பிராண்ட் அல்லது அளவு"
+              />
+            </li>
+          </ol>
 
           <BilingualText
             as="p"
